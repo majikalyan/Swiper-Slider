@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.slides{
+  height: 400px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 20px;
+}
+.prev,.next{
+    font-size: 30px; 
+    color: white;
+}
+#slide2,#slide3{
+    display: none;
+}
+.event button{
+    margin-top: 30px;
+    display: block;
+}
+
+

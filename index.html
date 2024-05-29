@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Carousel</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="slides" id="slide1">
+            <img src="./images/bgimage1.jpg" alt="bgimage1">
+        </div>
+        <div class="slides" id="slide2">
+            <img src="./images/bgimage2.jpg" alt="bgimage2">
+        </div>
+        <div class="slides" id="slide3">
+            <img src="./images/bgimage3.jpeg" alt="bgimage3">
+        </div>
+
+        <div class="buttons">
+            <div class="prev">
+                <i class="fa-solid fa-angle-left" onclick="showSlide(-1)"></i>
+            </div>
+            <div class="next">
+                <i class="fa-solid fa-angle-right" onclick="showSlide(+1)"></i>
+            </div>
+        </div>
+    </div>
+    <div class="event">
+        <button onclick="alert('button clicked')">click me</button>
+        <button onclick="displayMsg()">click</button>
+        <button id="btn">click here</button>
+    </div>
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
